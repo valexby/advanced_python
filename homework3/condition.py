@@ -1,5 +1,4 @@
 import threading
-import time
 
 
 def print_number(is_odd, cond):
