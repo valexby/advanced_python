@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 from concurrent.futures import ProcessPoolExecutor
 import multiprocessing
-import time
 import sys
+import time
 
 
 def check_primary(n):
