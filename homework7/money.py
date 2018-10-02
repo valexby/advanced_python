@@ -4,7 +4,7 @@ import requests
 API_KEY = '4517c1b02e0d131860a07e86b7c73874'
 
 
-class Money:
+class Money(object):
     def __init__(self, number, currency='USD'):
         if currency not in Money.list_currencies():
             raise ValueError("Unsupported currency - \"{}\"".format(currency))
